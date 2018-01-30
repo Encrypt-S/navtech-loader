@@ -17,6 +17,10 @@ Loader.client = new Client({
   host: settings.host,
 })
 
+if (settings.start > 0) {
+  Loader.remaining.splice(0, settings.start - 1)
+}
+
 Loader.client.getInfo().then((info) => {
   Loader.send()
 }).catch((e) => {
