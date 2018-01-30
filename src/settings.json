@@ -1,0 +1,9 @@
+{
+  "user": "rpcuser",
+  "pass": "rpcpass",
+  "port": "44444",
+  "host": "127.0.0.1",
+  "amount": 1000,
+  "num": 20,
+  "data": "./data/your.addresses.json"
+}

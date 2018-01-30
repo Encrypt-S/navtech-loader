@@ -1,0 +1,23 @@
+{
+  "name": "navtech-loader",
+  "version": "1.0.0",
+  "description": "Node Application to Load Navtech Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigmacgregor/navtech-loader.git"
+  },
+  "author": "Craig MacGregor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigmacgregor/navtech-loader/issues"
+  },
+  "homepage": "https://github.com/craigmacgregor/navtech-loader#readme",
+  "dependencies": {
+    "bitcoin-core": "^2.0.0"
+  },
+  "devDependencies": {}
+}
